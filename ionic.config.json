@@ -1,0 +1,7 @@
+{
+  "name": "profitable-chat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

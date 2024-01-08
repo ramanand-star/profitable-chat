@@ -1,0 +1,94 @@
+<ion-header class="AppHeader">
+  <ion-icon name="arrow-back-outline" [routerLink]="['/home']"></ion-icon>
+  <p>Chart patterns</p>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid class="mainDiv">
+    <div class="TextBoxImg" >
+      <img src="assets/Learn-and-earn.png" alt="">
+    </div>
+    <ion-row>
+      <ion-col class="TextBox1"  [routerLink]="c.route"  *ngFor="let  c of conatainArray">
+        <div class="TextBox">
+          <img [src]="c.img" alt="">
+          <p>{{c.name}}</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <!-- <div class="mainDiv"> -->
+    <!-- <div class="TextBoxImg" >
+      <img src="assets/Learn-and-earn.png" alt="">
+    </div> -->
+
+    <!-- <div class="TextBox" [routerLink]="['/doublebottom']">
+      <img src="assets/bottom.png" alt="">
+      
+      <p>Double Buttom</p>
+    </div>
+    <div class="TextBox" [routerLink]="['/top']">
+      <img src="assets/top1.png" alt="">
+      <p>Double Top</p>
+    </div> -->
+    <!-- <div class="TextBox" [routerLink]="['/head-scame']">
+      <img src="assets/head1.png" alt="">
+      <p></p>
+    </div>
+    <div class="TextBox" [routerLink]="['/head-top']">
+      <img src="assets/double-bottom.png" alt="">
+      <p>Head and Shoulder Top</p>
+    </div> -->
+    <!-- <div class="TextBox"  [routerLink]="['/reactangle']">
+      <img src="assets/basic-needs.png" alt="">
+      <p></p>
+    </div> -->
+    <!-- <div class="TextBox"  [routerLink]="['/reactangle-top']">
+      <img src="assets/basic-needs.png" alt="">
+      <p> /p>
+    </div> -->
+    <!-- <div class="TextBox"  [routerLink]="['/rounding-bottom']">
+      <img src="assets/basic-needs.png" alt="">
+      <p>Rounding Bottom</p>
+    </div> -->
+    <!-- <div class="TextBox"  [routerLink]="['/']">
+      <img src="assets/basic-needs.png" alt="">
+      <p> Rounding Top</p>
+    </div>
+    <div class="TextBox"  [routerLink]="['/cup-handle']">
+      <img src="assets/basic-needs.png" alt="">
+      <p>Cup and Handle</p>
+    </div>
+    <div class="TextBox"  [routerLink]="['/inverted']">
+      <img src="assets/basic-needs.png" alt="">
+      <p>Cup and Handle Inverted</p>
+    </div>
+    <div class="TextBox"  [routerLink]="['/accending']">
+      <img src="assets/basic-needs.png" alt="">
+      <p>Ascending Triangle</p>
+    </div>
+    <div class="TextBox"  [routerLink]="['/decending']">
+      <img src="assets/basic-needs.png" alt="">
+      <p>Descending Triangle</p>
+    </div>
+    <div class="TextBox"  [routerLink]="['/symmatrical']">
+      <img src="assets/basic-needs.png" alt="">
+      <p> Symmetrical Triangle</p>
+    </div>
+    <div class="TextBox"  [routerLink]="['/scoop']">
+      <img src="assets/basic-needs.png" alt="">
+      <p>Scoop Pattern</p>
+    </div>
+    <div class="TextBox"  [routerLink]="['/cradle']">
+      <img src="assets/basic-needs.png" alt="">
+      <p>Cradle Pattern</p>
+    </div>
+    <div class="TextBox"  [routerLink]="['/bullish']">
+      <img src="assets/basic-needs.png" alt="">
+      <p>Bullish Flag</p>
+    </div> -->
+   
+  <!-- </div> -->
+</ion-content>
+

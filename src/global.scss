@@ -1,0 +1,83 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import '@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+
+.AppHeader{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: #257e76;
+    // background-color: #c48f8f;
+    background: rgb(188,249,250);
+    background: linear-gradient(-23deg, rgba(188,249,250,1) 0%, rgb(242 120 105) 100%);
+    border-radius: 0px 0px 8px 8px;
+    p{
+        font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+    }
+    ion-icon{
+        position: fixed;
+        left: 4%;
+        color: white;
+        font-size: 27px;
+    }
+}
+.MainDivChart{
+    background: rgb(188, 249, 250);
+    background: linear-gradient(-184deg, rgb(188, 249, 250) 0%, rgb(242, 120, 105) 120%) ,0% red;
+       width: 100%;
+       background-color: white;
+       padding: 15px 10px 10px;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       flex-direction: column;
+       overflow: scroll;
+    
+   }
+   
+.spanBlue {
+    color: rgb(28, 28, 240);
+}
+#text{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px 0px 13px;
+    color: black;
+}
+.secDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,98 @@
+
+.mainDiv{
+  padding: 10px 20px;
+    height: 100%;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(188,249,250);
+    background: linear-gradient(151deg, rgba(188,249,250,1) 0%, rgb(245 188 181) 100%);
+    .TextBoxImg{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27px;
+    img{
+   object-fit: contain;
+    }
+    }
+  .TextBox{
+    height: 50px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #9dd6d4;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    box-shadow: 0px 0px 0px #f7f8f9, 0px 0px 0px rgb(243, 244, 245), 0px 2px 16px rgb(241, 238, 238), 0px 0px 0px #fafafa;
+    p{
+      
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0px;
+    font-weight: 600;
+    text-transform: capitalize;
+     color: black;
+
+    }
+    #chartPattern{
+      height: 55px;
+      width: 55px;
+      object-fit: contain;
+      margin-inline-end: -1px;
+    }
+    img{
+      height: 28px;
+      width: 29px;
+      // position: relative;
+      // top: -4px;
+      margin-right: 10px;
+    }
+    ion-icon{
+      height: 28px;
+      width: 29px;
+      // position: relative;
+      // top: -4px;
+      margin-right: 10px;
+    }
+}
+.icon-Div{
+  height: 50px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 0px 70px;
+  .backDiv{
+    height: 50px;
+    width: 60px;
+    // background: #cebdbd;
+    background: #9dd6d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    ion-icon{
+      font-size: 24px;
+    }
+  }
+}
+
+}
+.TextBoxImgF{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin-bottom: 27px;
+  .fimg{
+    object-fit: contain;
+    }
+
+}

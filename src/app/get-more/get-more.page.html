@@ -1,0 +1,18 @@
+<ion-header class="AppHeader">
+  <ion-icon name="arrow-back-outline" [routerLink]="['/home']"></ion-icon>
+  <p>Get More</p>
+</ion-header>
+<ion-content>
+  <div class="MainDivChart" style="height: -webkit-fill-available; display:flex; justify-content:center;">
+    <div class="secDiv">
+      <!-- <div class="imgDiv">
+        <img [src]="this.img1" alt="">
+      </div> -->
+      <p id="text">
+        {{this.des}}
+        </p>
+        <a (click)="externalLink()" class="link">Click here to know more!!</a>
+    </div>
+  </div>
+</ion-content>
+

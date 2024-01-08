@@ -1,0 +1,38 @@
+<ion-header class="AppHeader">
+  <p>Learn the chart patterns to earn</p>
+</ion-header>
+<ion-content>
+  <div class="mainDiv">
+    <div class="TextBoxImgF">
+      <img src="assets/stMarket.png" alt="" id="fimg">
+    </div>
+    <div class="TextBoxImg">
+      <img src="assets/Learn-and-earn.png" alt="">
+    </div>
+    <div class="TextBox"  [routerLink]="['/patternlearing']">
+      <img src="assets/pattern-learning.png" alt="">
+      <p>Pattern learing</p>
+    </div>
+    <div class="TextBox" [routerLink]="['/chart-patterns']">
+      <!-- <ion-icon name="chatbubble-ellipses-outline"></ion-icon> -->
+      <img src="assets/chartPattern-removebg-preview.png" alt="" id="chartPattern" >
+      <p>Chart patterns</p>
+    </div>
+    <div class="TextBox"  [routerLink]="['/recentexample']">
+      <img src="assets/introduction.png" alt="">
+      <p>Recent example</p>
+    </div>
+    <div class="TextBox"  [routerLink]="['/get-more']">
+      <img src="assets/basic-needs.png" alt="">
+      <p>get More</p>
+    </div>
+    <div class="icon-Div">
+      <div class="backDiv">
+      <ion-icon name="star"></ion-icon></div>
+      <div class="backDiv">
+        <ion-icon name="share-social"  (click)="onShareclick()"></ion-icon>
+      </div>
+      
+    </div>
+  </div>
+</ion-content>
